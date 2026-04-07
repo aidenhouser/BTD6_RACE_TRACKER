@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository content
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: auto-run
           fetch-depth: 0
 
       - name: Setup Python

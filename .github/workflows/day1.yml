@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository content
         uses: actions/checkout@v4
         with:
-          ref: auto-update
+          ref: main
           fetch-depth: 0
 
       - name: Setup Python
@@ -31,13 +31,13 @@ jobs:
 
       - name: Commit files
         run: |
-          git config --local user.name "ducanup01"
-          git config --local user.email "ducanup01@gmail.com"
+          git config --local user.name "aidenhouser"
+          git config --local user.email "aidenhouser2007@gmail.com"
           git add .
           sleep 3
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "automatic updater"
-            git push origin auto-update --force
+            git push origin main --force
           fi

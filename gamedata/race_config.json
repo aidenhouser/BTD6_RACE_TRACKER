@@ -6,10 +6,10 @@
         "start": 1776391200000,
         "end": 1776740400000
     },
-    "NEXT_RACE_NAME": "Scrappy Scrap",
-    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Scrappy_Scrap_mo8o56gh/leaderboard",
+    "NEXT_RACE_NAME": "",
+    "NEXT_RACE_URL": "",
     "NEXT_RACE_WINDOW": {
-        "start": 1776996000000,
-        "end": 1777345200000
+        "start": 0,
+        "end": 0
     }
 }

@@ -6,10 +6,10 @@
         "start": 1776996000000,
         "end": 1777345200000
     },
-    "NEXT_RACE_NAME": "",
-    "NEXT_RACE_URL": "",
+    "NEXT_RACE_NAME": "Enjoying the Hotsprings",
+    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/mois29mi/leaderboard",
     "NEXT_RACE_WINDOW": {
-        "start": 0,
-        "end": 0
+        "start": 1777600800000,
+        "end": 1777950000000
     }
 }

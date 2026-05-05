@@ -6,10 +6,10 @@
         "start": 1777600800000,
         "end": 1777950000000
     },
-    "NEXT_RACE_NAME": "",
-    "NEXT_RACE_URL": "",
+    "NEXT_RACE_NAME": "Speedy Stump",
+    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Speedy_Stump_mosdc1qt/leaderboard",
     "NEXT_RACE_WINDOW": {
-        "start": 0,
-        "end": 0
+        "start": 1778205600000,
+        "end": 1778554800000
     }
 }

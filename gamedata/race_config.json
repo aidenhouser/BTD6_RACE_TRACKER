@@ -6,10 +6,10 @@
         "start": 1778810400000,
         "end": 1779159600000
     },
-    "NEXT_RACE_NAME": "",
-    "NEXT_RACE_URL": "",
+    "NEXT_RACE_NAME": "Reversed Loop",
+    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Reversed_Loop_mpbd7tcu/leaderboard",
     "NEXT_RACE_WINDOW": {
-        "start": 0,
-        "end": 0
+        "start": 1779415200000,
+        "end": 1779764400000
     }
 }

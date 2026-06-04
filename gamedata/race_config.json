@@ -6,10 +6,10 @@
         "start": 1780020000000,
         "end": 1780369200000
     },
-    "NEXT_RACE_NAME": "",
-    "NEXT_RACE_URL": "",
+    "NEXT_RACE_NAME": "Alternate Spook",
+    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Alternate_Spook_mpyodkra/leaderboard",
     "NEXT_RACE_WINDOW": {
-        "start": 0,
-        "end": 0
+        "start": 1780624800000,
+        "end": 1780974000000
     }
 }

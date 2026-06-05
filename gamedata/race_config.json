@@ -1,15 +1,15 @@
 {
     "RACE_EVENT_URL": "https://data.ninjakiwi.com/btd6/races",
-    "CURRENT_RACE_NAME": "Spicy Islands",
-    "CURRENT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Spicy_Islands_mpl7spfv/leaderboard",
+    "CURRENT_RACE_NAME": "Alternate Spook",
+    "CURRENT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Alternate_Spook_mpyodkra/leaderboard",
     "CURRENT_RACE_WINDOW": {
-        "start": 1780020000000,
-        "end": 1780369200000
-    },
-    "NEXT_RACE_NAME": "Alternate Spook",
-    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Alternate_Spook_mpyodkra/leaderboard",
-    "NEXT_RACE_WINDOW": {
         "start": 1780624800000,
         "end": 1780974000000
+    },
+    "NEXT_RACE_NAME": "",
+    "NEXT_RACE_URL": "",
+    "NEXT_RACE_WINDOW": {
+        "start": 0,
+        "end": 0
     }
 }

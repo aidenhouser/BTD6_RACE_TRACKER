@@ -1,15 +1,15 @@
 {
     "RACE_EVENT_URL": "https://data.ninjakiwi.com/btd6/races",
-    "CURRENT_RACE_NAME": "Alternate Spook",
-    "CURRENT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Alternate_Spook_mpyodkra/leaderboard",
+    "CURRENT_RACE_NAME": "Cabin Fever ",
+    "CURRENT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Cabin_Fever_mq5b9jqx/leaderboard",
     "CURRENT_RACE_WINDOW": {
-        "start": 1780624800000,
-        "end": 1780974000000
-    },
-    "NEXT_RACE_NAME": "Cabin Fever ",
-    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Cabin_Fever_mq5b9jqx/leaderboard",
-    "NEXT_RACE_WINDOW": {
         "start": 1781229600000,
         "end": 1781578800000
+    },
+    "NEXT_RACE_NAME": "",
+    "NEXT_RACE_URL": "",
+    "NEXT_RACE_WINDOW": {
+        "start": 0,
+        "end": 0
     }
 }

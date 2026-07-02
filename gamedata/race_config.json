@@ -6,10 +6,10 @@
         "start": 1782439200000,
         "end": 1782788400000
     },
-    "NEXT_RACE_NAME": "",
-    "NEXT_RACE_URL": "",
+    "NEXT_RACE_NAME": "Corntada 3",
+    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Corntada_3_mr3x6c0s/leaderboard",
     "NEXT_RACE_WINDOW": {
-        "start": 0,
-        "end": 0
+        "start": 1783044000000,
+        "end": 1783393200000
     }
 }

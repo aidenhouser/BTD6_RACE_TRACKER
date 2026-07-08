@@ -6,10 +6,10 @@
         "start": 1783044000000,
         "end": 1783393200000
     },
-    "NEXT_RACE_NAME": "",
-    "NEXT_RACE_URL": "",
+    "NEXT_RACE_NAME": "Fast Circles",
+    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Fast_Circles_mrbuclci/leaderboard",
     "NEXT_RACE_WINDOW": {
-        "start": 0,
-        "end": 0
+        "start": 1783648800000,
+        "end": 1783998000000
     }
 }

@@ -6,10 +6,10 @@
         "start": 1784858400000,
         "end": 1785207600000
     },
-    "NEXT_RACE_NAME": "",
-    "NEXT_RACE_URL": "",
+    "NEXT_RACE_NAME": "Tough Candy",
+    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/ms4ugwkz/leaderboard",
     "NEXT_RACE_WINDOW": {
-        "start": 0,
-        "end": 0
+        "start": 1785463200000,
+        "end": 1785812400000
     }
 }

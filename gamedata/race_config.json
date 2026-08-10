@@ -6,10 +6,10 @@
         "start": 1786068000000,
         "end": 1786417200000
     },
-    "NEXT_RACE_NAME": "",
-    "NEXT_RACE_URL": "",
+    "NEXT_RACE_NAME": "Cubistic Dreams",
+    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Cubistic_Dreams_msn8pk0x/leaderboard",
     "NEXT_RACE_WINDOW": {
-        "start": 0,
-        "end": 0
+        "start": 1786672800000,
+        "end": 1787022000000
     }
 }

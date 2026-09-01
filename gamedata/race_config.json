@@ -6,10 +6,10 @@
         "start": 1787882400000,
         "end": 1788231600000
     },
-    "NEXT_RACE_NAME": "",
-    "NEXT_RACE_URL": "",
+    "NEXT_RACE_NAME": "Regene-race ",
+    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Regene-race_mtiv89ol/leaderboard",
     "NEXT_RACE_WINDOW": {
-        "start": 0,
-        "end": 0
+        "start": 1788487200000,
+        "end": 1788836400000
     }
 }

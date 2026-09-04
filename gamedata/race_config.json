@@ -1,15 +1,15 @@
 {
     "RACE_EVENT_URL": "https://data.ninjakiwi.com/btd6/races",
-    "CURRENT_RACE_NAME": "Adora's Temple Race",
-    "CURRENT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Adoras_Temple_Race_mt7bs7il/leaderboard",
+    "CURRENT_RACE_NAME": "Regene-race ",
+    "CURRENT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Regene-race_mtjapaiu/leaderboard",
     "CURRENT_RACE_WINDOW": {
-        "start": 1787882400000,
-        "end": 1788231600000
-    },
-    "NEXT_RACE_NAME": "Regene-race ",
-    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Regene-race_mtjapaiu/leaderboard",
-    "NEXT_RACE_WINDOW": {
         "start": 1788487200000,
         "end": 1788836400000
+    },
+    "NEXT_RACE_NAME": "",
+    "NEXT_RACE_URL": "",
+    "NEXT_RACE_WINDOW": {
+        "start": 0,
+        "end": 0
     }
 }

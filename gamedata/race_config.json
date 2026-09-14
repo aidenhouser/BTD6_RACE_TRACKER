@@ -6,10 +6,10 @@
         "start": 1789092000000,
         "end": 1789441200000
     },
-    "NEXT_RACE_NAME": "",
-    "NEXT_RACE_URL": "",
+    "NEXT_RACE_NAME": "Gun Game",
+    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Gun_Game_mu19oabt/leaderboard",
     "NEXT_RACE_WINDOW": {
-        "start": 0,
-        "end": 0
+        "start": 1789696800000,
+        "end": 1790046000000
     }
 }

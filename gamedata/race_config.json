@@ -1,10 +1,10 @@
 {
     "RACE_EVENT_URL": "https://data.ninjakiwi.com/btd6/races",
-    "CURRENT_RACE_NAME": "Loud Street",
-    "CURRENT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Loud_Street_mv9zuq9d/leaderboard",
+    "CURRENT_RACE_NAME": "Brickells Zen Garden",
+    "CURRENT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Brickells_Zen_Garden_mvjyxbl6/leaderboard",
     "CURRENT_RACE_WINDOW": {
-        "start": 1792116000000,
-        "end": 1792465200000
+        "start": 1792720800000,
+        "end": 1793070000000
     },
     "NEXT_RACE_NAME": "",
     "NEXT_RACE_URL": "",

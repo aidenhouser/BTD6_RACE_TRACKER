@@ -1,10 +1,10 @@
 {
     "RACE_EVENT_URL": "https://data.ninjakiwi.com/btd6/races",
-    "CURRENT_RACE_NAME": "Brickells Zen Garden",
-    "CURRENT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Brickells_Zen_Garden_mvjyxbl6/leaderboard",
+    "CURRENT_RACE_NAME": "It's that Spooky time",
+    "CURRENT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Its_that_Spooky_time_mvu7fzc7/leaderboard",
     "CURRENT_RACE_WINDOW": {
-        "start": 1792720800000,
-        "end": 1793070000000
+        "start": 1793325600000,
+        "end": 1793674800000
     },
     "NEXT_RACE_NAME": "",
     "NEXT_RACE_URL": "",

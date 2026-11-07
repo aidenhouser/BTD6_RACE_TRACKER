@@ -260,7 +260,9 @@ def schedule_task():
     
     # 2 hours after race starts and 15 minutes after it ends
     elif current_race_start + HOUR_AFTER_RACE_START < current_ms < current_race_end + MINUTES_AFTER_RACE_END:
-        # update_leaderboard()
+        # update the lb here
+        update_leaderboard()
+        # update the lb above
         pass
 
 
@@ -289,6 +291,7 @@ def main():
     
 if __name__ == "__main__":
     main()
+    # these below are for manual testing only
     # update_leaderboard()
     # clear_leaderboard()
     # update_race_history()

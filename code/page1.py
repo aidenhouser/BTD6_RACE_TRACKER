@@ -7,6 +7,7 @@ import time
 
 RACE_CONFIG = "gamedata/race_config.json"
 NAME_MAPPING = "gamedata/name_mapping.json"
+monkeys_file = "gamedata/monkeys.json"
 
 race_leaderboard_file = "race_leaderboard.csv"
 df = pd.read_csv(race_leaderboard_file)
@@ -16,6 +17,9 @@ with open(RACE_CONFIG, "r", encoding="utf-8") as f:
 
 with open(NAME_MAPPING, "r") as f:
     name_mapping = json.load(f)
+
+with open(monkeys_file, "r") as f:
+    monkeys = json.load(f)
 
 current_ms = int(time.time() * 1000)
 
@@ -432,87 +436,80 @@ def main():
         )
 
     with tab2:
+        primary_monkeys = monkeys["Primary"]
+        display_columns = ["pfp_url", "name"] + primary_monkeys
+        column_config = {
+            "pfp_url": st.column_config.ImageColumn(label="PFP", width=15),
+            "name": st.column_config.Column(label="Player name 🗨️", width=103),
+        }
+
         st.dataframe(
-            df[['pfp_url', 'name', 'DartMonkey', 'BoomerangMonkey', 'BombShooter', 'TackShooter', 'IceMonkey', 'GlueGunner', 'Desperado']],
-            column_config={
-                'pfp_url': st.column_config.ImageColumn(label="PFP", width=2),  # Profile picture
-                'name': st.column_config.Column(label='Player name 🗨️', width=94),
-                'DartMonkey': st.column_config.NumberColumn(label='Dart'),
-                'BoomerangMonkey': st.column_config.NumberColumn(label='Boomer'),
-                'BombShooter': st.column_config.NumberColumn(label='Bomb'),
-                'TackShooter': st.column_config.NumberColumn(label='Tack'),
-                'IceMonkey': st.column_config.NumberColumn(label='Ice'),
-                'GlueGunner': st.column_config.NumberColumn(label='Glue'),
-                'Desperado': st.column_config.NumberColumn(label='Desperado'),
-            },
+            df[display_columns],
+            column_config=column_config,
             use_container_width=True,
             hide_index=True,
         )
-    
+
     with tab3:
+        military_monkeys = monkeys["Military"]
+        display_columns = ["pfp_url", "name"] + military_monkeys
+
+        column_config = {
+            "pfp_url": st.column_config.ImageColumn(label="PFP", width=13),
+            "name": st.column_config.Column(label="Player name 🗨️", width=102),
+        }
+
         st.dataframe(
-            df[['pfp_url', 'name', 'SniperMonkey', 'MonkeySub', 'MonkeyBuccaneer', 'MonkeyAce', 'HeliPilot', 'MortarMonkey', 'DartlingGunner']],
-            column_config={
-                'pfp_url': st.column_config.ImageColumn(label="PFP", width=15),  # Profile picture
-                'name': st.column_config.Column(label='Player name 🗨️', width=107),
-                'SniperMonkey': st.column_config.NumberColumn(label='Sniper'),
-                'MonkeySub': st.column_config.NumberColumn(label='Sub'),
-                'MonkeyBuccaneer': st.column_config.NumberColumn(label='Boat'),
-                'MonkeyAce': st.column_config.NumberColumn(label='Ace'),
-                'HeliPilot': st.column_config.NumberColumn(label='Heli'),
-                'MortarMonkey': st.column_config.NumberColumn(label='Mortar'),
-                'DartlingGunner': st.column_config.NumberColumn(label='Dartling'),
-            },
+            df[display_columns],
+            column_config=column_config,
             use_container_width=True,
             hide_index=True,
         )
 
     with tab4:
+        magic_monkeys = monkeys["Magic"]
+        display_columns = ["pfp_url", "name"] + magic_monkeys
+
+        column_config = {
+            "pfp_url": st.column_config.ImageColumn(label="PFP", width=18),
+            "name": st.column_config.Column(label="Player name 🗨️", width=108),
+        }
+
         st.dataframe(
-            df[['pfp_url', 'name', 'WizardMonkey', 'SuperMonkey', 'NinjaMonkey', 'Alchemist', 'Druid', 'Mermonkey']],
-            column_config={
-                'pfp_url': st.column_config.ImageColumn(label="PFP", width=7),  # Profile picture
-                'name': st.column_config.Column(label='Player name 🗨️', width=99),
-                'WizardMonkey': st.column_config.NumberColumn(label='Wizard'),
-                'SuperMonkey': st.column_config.NumberColumn(label='Super'),
-                'NinjaMonkey': st.column_config.NumberColumn(label='Ninja'),
-                'Alchemist': st.column_config.NumberColumn(label='Alch'),
-                'Druid': st.column_config.NumberColumn(label='Druid'),
-                'Mermonkey': st.column_config.NumberColumn(label='Mermonkey'),
-            },
+            df[display_columns],
+            column_config=column_config,
             use_container_width=True,
             hide_index=True,
         )
 
     with tab5:
+        support_monkeys = monkeys["Support"]
+        display_columns = ["pfp_url", "name"] + support_monkeys
+
+        column_config = {
+            "pfp_url": st.column_config.ImageColumn(label="PFP", width=-1),
+            "name": st.column_config.Column(label="Player name 🗨️", width=91),
+        }
+
         st.dataframe(
-            df[['pfp_url', 'name', 'BananaFarm', 'SpikeFactory', 'MonkeyVillage', 'EngineerMonkey', 'BeastHandler']],
-            column_config={
-                'pfp_url': st.column_config.ImageColumn(label="PFP", width=-1),  # Profile picture
-                'name': st.column_config.Column(label='Player name 🗨️', width=91),
-                'BananaFarm': st.column_config.NumberColumn(label='Farm'),
-                'SpikeFactory': st.column_config.NumberColumn(label='Spactory'),
-                'MonkeyVillage': st.column_config.NumberColumn(label='Village'),
-                'EngineerMonkey': st.column_config.NumberColumn(label='Engineer'),
-                'BeastHandler': st.column_config.NumberColumn(label='Beast handler'),
-            },
+            df[display_columns],
+            column_config=column_config,
             use_container_width=True,
             hide_index=True,
         )
-        
+
     with tab6:
+        heroes = monkeys["Heroes"]
+        display_columns = ["pfp_url", "name"] + heroes
+
+        column_config = {
+            "pfp_url": st.column_config.ImageColumn(label="PFP"),
+            "name": st.column_config.Column(label="Player name 🗨️"),
+        }
+
         st.dataframe(
-            df[['pfp_url', 'name', 'StrikerJones', 'Gwendolin', 'Benjamin', 'CaptainChurchill', 'Sauda', 'Corvus']],
-            column_config={
-                'pfp_url': st.column_config.ImageColumn(label="PFP", width=16),  # Profile picture
-                'name': st.column_config.Column(label='Player name 🗨️', width=108),
-                'StrikerJones': st.column_config.NumberColumn(label='Striker'),
-                'Gwendolin': st.column_config.NumberColumn(label='Gwendolin'),
-                'Benjamin': st.column_config.NumberColumn(label='Benjamin'),
-                'CaptainChurchill': st.column_config.NumberColumn(label='Churchill'),
-                'Sauda': st.column_config.NumberColumn(label='Sauda'),
-                'Corvus': st.column_config.NumberColumn(label='Corvus'),
-            },
+            df[display_columns],
+            column_config=column_config,
             use_container_width=True,
             hide_index=True,
         )

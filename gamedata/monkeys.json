@@ -23,7 +23,8 @@
         "NinjaMonkey",
         "Alchemist",
         "Druid",
-        "Mermonkey"
+        "Mermonkey",
+        "Skywarden"
     ],
     "Support" : [
         "BananaFarm",
@@ -33,22 +34,23 @@
         "BeastHandler"
     ],
     "Heroes" : [
-        "Quincy",
-        "Gwendolin",
-        "StrikerJones",
-        "ObynGreenfoot",
-        "Silas",
-        "Benjamin",
-        "PatFusty",
-        "CaptainChurchill",
-        "Ezili",
-        "Rosalia",
-        "Etienne",
-        "Sauda",
-        "Adora",
         "AdmiralBrickell",
-        "Psi",
+        "Adora",
+        "Benjamin",
+        "Etienne",
         "Geraldo",
-        "Corvus"
+        "Gwendolin",
+        "ObynGreenfoot",
+        "PatFusty",
+        "Psi",
+        "Quincy",
+        "Sauda",
+        "StrikerJones",
+        "Ezili",
+        "CaptainChurchill",
+        "Corvus",
+        "Rosalia",
+        "Silas",
+        "DanDMonke"
     ]
 }

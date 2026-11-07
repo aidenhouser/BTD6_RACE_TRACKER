@@ -292,6 +292,7 @@ def main():
 if __name__ == "__main__":
     main()
     # these below are for manual testing only
+    # ensure_race_leaderboard_columns()
     # update_leaderboard()
     # clear_leaderboard()
     # update_race_history()

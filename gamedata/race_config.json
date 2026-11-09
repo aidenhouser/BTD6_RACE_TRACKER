@@ -6,10 +6,10 @@
         "start": 1793930400000,
         "end": 1794279600000
     },
-    "NEXT_RACE_NAME": "",
-    "NEXT_RACE_URL": "",
+    "NEXT_RACE_NAME": "Slippery Skates",
+    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Slippery_Skates_mw9cl3d3/leaderboard",
     "NEXT_RACE_WINDOW": {
-        "start": 0,
-        "end": 0
+        "start": 1794535200000,
+        "end": 1794884400000
     }
 }

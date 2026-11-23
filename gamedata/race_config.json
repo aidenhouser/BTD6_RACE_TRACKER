@@ -6,10 +6,10 @@
         "start": 1795140000000,
         "end": 1795489200000
     },
-    "NEXT_RACE_NAME": "",
-    "NEXT_RACE_URL": "",
+    "NEXT_RACE_NAME": "Moonvasion",
+    "NEXT_RACE_URL": "https://data.ninjakiwi.com/btd6/races/Moonvasion_mwtewcgl/leaderboard",
     "NEXT_RACE_WINDOW": {
-        "start": 0,
-        "end": 0
+        "start": 1795744800000,
+        "end": 1796094000000
     }
 }
